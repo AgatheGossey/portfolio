@@ -1,0 +1,71 @@
+.container {
+    z-index: 0;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.containerDetails {
+    margin: auto;
+    max-width: 50%;
+}
+
+.span {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 1em;
+}
+
+.title, .projectOCR, .details, .functionality, .technologies {
+    padding: 1em!important; 
+}
+
+.projectOCR {
+    text-align: center;
+}
+
+#close {
+    cursor: pointer;
+    margin-left: 100%;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Sniglet', cursive;
+    color: #f99d52;
+    padding: 0!important;
+}
+
+.functionalityList {
+    margin-left: 2em;
+}
+.button {
+    margin: auto;
+}
+
+.projectLink {
+    text-decoration: none;
+}
+
+.projectLink:hover {
+    color: white;
+}
+
+a:visited {
+    color: inherit;
+}
+
+@media all and (min-width: 1200px) {
+
+  .container  {
+      max-width: 50%;
+  }
+
+  .containerDetails {
+        max-width: 100%;
+    }
+
+}

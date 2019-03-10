@@ -1,0 +1,67 @@
+.container {
+  background-image: url("./fond.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 6em;
+}
+
+.title {
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 800;
+}
+  
+.cardDeck {
+  padding: 1em;
+}
+
+.card {
+  position: relative;
+  margin: 5em;
+  padding: 0;
+}
+
+.cardBody {
+  margin: 3em 2em;
+}
+
+.circle {
+  position: absolute;
+  transform: translateX(+50%);
+  right: 50%;
+  top: -0.5em;
+  font-size: 6em;
+  z-index: 1;
+}
+
+.icon {
+  position: absolute;
+  transform: translateX(+50%);
+  right: 50%;
+  top: -0.5em;
+  font-size: 2em;
+  z-index: 2;
+  color: white;
+}
+
+#laptop {
+  color: #13b24f;
+}
+
+#codeBranch {
+  color: #f79013;
+}
+
+#plusSquare {
+  color: #a700af;
+}
+
+@media all and (min-width: 992px) {
+
+  .cardDeck {
+    padding: 5em;
+  }
+
+}
