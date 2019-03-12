@@ -4,13 +4,13 @@
     background-color: black;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
     display: flex;
+    height: 1100px;
 }
 
 .containerDetails {
     margin: auto;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 .span {
@@ -21,6 +21,10 @@
 
 .title, .projectOCR, .details, .functionality, .technologies {
     padding: 1em!important; 
+}
+
+.details {
+    text-align: justify;
 }
 
 .projectOCR {
@@ -42,20 +46,30 @@
 .functionalityList {
     margin-left: 2em;
 }
+
 .button {
     margin: auto;
 }
 
 .projectLink {
     text-decoration: none;
+    color:inherit;
 }
 
 .projectLink:hover {
     color: white;
 }
 
-a:visited {
-    color: inherit;
+@media all and (min-width: 992px) {
+
+    .container {
+        height: 100vh;
+    }
+
+    .containerDetails {
+        max-width: 50%;
+    }
+
 }
 
 @media all and (min-width: 1200px) {

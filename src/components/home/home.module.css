@@ -1,0 +1,79 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  z-index: 2;
+  transition:transform .9s;
+}
+
+.logo:hover {
+  -webkit-transform:rotate(540deg); 
+  -moz-transform:rotate(540deg);
+  -o-transform:rotate(540deg); 
+  -ms-transform:rotate(540deg); 
+  transform:rotate(540deg);
+}
+
+@media all and (min-width: 576px) {
+
+  .logoContainer {
+    height: 0;
+  }
+
+}
+
+@media all and (min-width: 768px) {
+
+  .logoContainer {
+    height: 0%;
+  }
+  
+  .logo {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+  }
+
+}
+
+@media all and (min-width: 992px) {
+
+  .home {
+    display: flex;
+    border-bottom: 1px dashed orange;
+  }
+
+  .containerLeft {
+    width: 50vw;
+    height: 100vh;
+  }
+
+  .logoContainer {
+    height: 100%;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+
+  .logo {
+    width: 250px;
+    height: 250px;
+  }
+  
+}

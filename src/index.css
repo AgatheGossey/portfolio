@@ -6,6 +6,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-image: url('fond.jpg');
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
 }
 
 code {
@@ -15,4 +25,12 @@ code {
 
 img {
   user-select: none;
+}
+
+@media all and (min-width: 992px) {
+
+  body {
+    padding: 1em;
+  }
+
 }

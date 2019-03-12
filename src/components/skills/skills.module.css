@@ -11,15 +11,25 @@
   text-transform: uppercase;
   letter-spacing: 0.5em;
   font-weight: 800;
+  margin-bottom: 4em;
+}
+
+.titleCard {
+  font-family: 'Sniglet', cursive;
+  text-transform: uppercase;
+}
+
+.langage {
+  font-weight: bold;
 }
   
 .cardDeck {
-  padding: 1em;
+  padding: 0;
 }
 
 .card {
   position: relative;
-  margin: 5em;
+  margin: 0em;
   padding: 0;
 }
 
@@ -46,16 +56,69 @@
   color: white;
 }
 
-#laptop {
+#laptopCircle:hover, #codeBranchCircle:hover, #plusSquareCircle:hover {
+  border-radius: 50px;
+  color: white;
+}
+
+#laptopCircle {
   color: #13b24f;
 }
 
-#codeBranch {
+#laptopCircle:hover {
+  border: 1px solid #13b24f;
+} 
+
+#laptopCircle:hover + #laptopIcon {
+  color: #13b24f;
+}
+
+#codeBranchCircle {
   color: #f79013;
 }
 
-#plusSquare {
+#codeBranchCircle:hover {
+  border: 1px solid #f79013;
+} 
+
+#codeBranchCircle:hover + #codeBranchIcon {
+  color: #f79013;
+}
+
+#plusSquareCircle {
   color: #a700af;
+}
+
+#plusSquareCircle:hover {
+  border: 1px solid #a700af;
+}
+
+#plusSquareCircle:hover + #plusSquareIcon {
+  color: #a700af;
+}
+
+.cvContainer {
+  width: 100%;
+  display: flex;
+  padding: 2em 0 4em 0;
+}
+
+.cv {
+  margin: auto;
+  padding: 1em;
+}
+
+.textButton {
+  color: inherit;
+}
+
+
+@media all and (min-width: 768px) {
+  
+  .cvContainer {
+    padding: 0 0 4em 0;
+  }
+
 }
 
 @media all and (min-width: 992px) {

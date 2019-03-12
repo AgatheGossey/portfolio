@@ -1,0 +1,100 @@
+.containerLeft {
+    min-height: 700px;
+    background-color: white;
+    z-index: 1;
+  }
+
+.text {
+    color: #402d2d;
+    padding: 2em 0;
+    font-weight: 800;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    overflow: hidden;
+    text-align: center;
+}
+
+.text .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.picture { 
+    margin: auto;
+    width: 240px;
+    height: 342px;
+}
+
+.icons {
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.icon {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.icon:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.link {
+    margin: 0 0.5em;
+    font-size: 3em;
+    z-index: 2;
+}
+
+#linkedin {
+    color: #007dbb;
+    z-index: 0;
+}
+
+#github {
+    color: #333; 
+}
+
+#mail {
+    color: #D44638
+}
+
+@media all and (min-width: 576px) {
+
+    .link {
+        margin: 0 1em;
+    }
+
+}
+@media all and (min-width: 992px) {
+ 
+    .containerLeft {
+      width: 50vw;
+      height: 100vh;
+      min-height: 860px;
+    }
+
+    .text {
+        padding: 5em 0;
+    }
+
+    .picture { 
+        width: 285px;
+        height: 400px;
+    }
+
+    .icons {
+        margin-top: 5em;
+    }
+
+}
